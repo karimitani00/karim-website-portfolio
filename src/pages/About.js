@@ -90,12 +90,13 @@ export default function About() {
                   <br />
                   I first began coding in High School, but began to take it more
                   seriously as an undergraduate at Dartmouth College. During my
-                  time finishing my undergraduate degree, I found that
-                  Engineering was not what I thought it would be. It was neither
-                  as creative, nor as project-based as I expected. As a result,
-                  I decided to continue my education, and complete my Master's
-                  in Computer Science. I am currently looking for Software
-                  Engineering jobs in high tech and consumer electronics.
+                  time in undergraduate, I began exploring Computer Science in a
+                  more formal setting, in parrallel to my engineering course
+                  load. I eventually realized that Computer Science is what I
+                  was most interested in, and as a result, I decided to continue
+                  my education and completed my Master's in Computer Science. I
+                  am currently looking for Software Engineering opportunities in
+                  high tech and consumer electronics.
                   <br />
                   <br />
                   During my free time I enjoy spending my time outdoors,

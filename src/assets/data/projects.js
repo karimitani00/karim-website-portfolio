@@ -4,6 +4,7 @@ import puzzleflexImg from '../images/puzzleflexImg.png';
 import p2pImg from '../images/p2pImg.png';
 import panoImg from '../images/panoImg.png';
 import websiteImg from '../images/websiteImg.png';
+import tseImg from '../images/tseImg.png';
 
 const projects = [
   {
@@ -44,6 +45,13 @@ const projects = [
       'Kinematic motion of chains with loose joints. Published in IEEE Robotics, 9/15/2020. (Julia)',
     img: puzzleflexImg,
     link: 'https://gitlab.com/dartmouthrobotics/PuzzleFlex.jl.git',
+  },
+  {
+    id: uuidv4(),
+    name: 'Tiny Search Engine',
+    desc: 'Basic web crawler. Crawler, Querier, Indexer. (C)',
+    img: tseImg,
+    link: 'https://github.com/karimitani00/Tiny-Search-Engine.git',
   },
 ];
 
