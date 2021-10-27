@@ -1,12 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
-import Button from '../components/Button';
 import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from '../components/AboutInfoItem';
 
 const AboutPageStyles = styled.div`
-  padding: 20rem 0 10rem 0;
+  padding: 10rem 0 10rem 0;
   .top-section {
     display: flex;
     align-items: center;
@@ -44,10 +43,10 @@ const AboutPageStyles = styled.div`
     }
   }
   .about__info__items {
-    margin-top: 15rem;
+    margin-top: 5rem;
   }
   .about__info__item {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
   .about__info__heading {
     font-size: 3.6rem;
@@ -102,7 +101,6 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download Resume" btnLink="#" />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

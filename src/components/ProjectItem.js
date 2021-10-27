@@ -40,16 +40,34 @@ export default function ProjectItem({
   image = projectImg,
   title = 'Project Name',
   body = 'Description',
+  link = '/projects',
 }) {
   return (
     <ProjectItemStyle>
-      <Link to="/projects" className="project__item__image">
-        <img src={image} alt="project Img" />
-      </Link>
-      <div className="project__item__info">
-        <Link to="/projects" className="">
-          <h3 className="project__item__title">{title}</h3>
+      {link === '/projects' ? (
+        <Link to={link} className="project__item__image">
+          <img src={image} alt="project Img" target="_blank" />
         </Link>
+      ) : (
+        <a
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+          className="project__item__image"
+        >
+          <img src={image} alt="project Img" target="_blank" />
+        </a>
+      )}
+      <div className="project__item__info">
+        {link === '/projects' ? (
+          <Link to={link}>
+            <h3 className="project__item__title">{title}</h3>
+          </Link>
+        ) : (
+          <a href={link} target="_blank" rel="noreferrer">
+            <h3 className="project__item__title">{title}</h3>
+          </a>
+        )}
         <p className="project__item__description">{body}</p>
       </div>
     </ProjectItemStyle>

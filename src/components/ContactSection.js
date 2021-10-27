@@ -54,7 +54,10 @@ export default function ContactSection() {
   return (
     <ContactSectionStyle>
       <div className="container">
-        <SectionTitle heading="Contact Me" subtitle="" />
+        <SectionTitle
+          heading="Contact Me"
+          subtitle="(contact form does not work currently)"
+        />
         <div className="contact__section__wrapper">
           <div className="left">
             <ContactInfoItem icon={<MdLocalPhone />} text="+16178178123" />

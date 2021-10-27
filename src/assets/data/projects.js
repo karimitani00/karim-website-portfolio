@@ -1,45 +1,49 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import appImg from '../images/appImg.png';
+import puzzleflexImg from '../images/puzzleflexImg.png';
+import p2pImg from '../images/p2pImg.png';
+import panoImg from '../images/panoImg.png';
+import websiteImg from '../images/websiteImg.png';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'P2P Blockchain Network',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'Peer to Peer blockchain network with application of distributed voting. (Python) (Contact me to gain access)',
+    img: p2pImg,
+    link: 'https://github.com/karimitani00/distributed_voting_blockchain.git',
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'Automated Image Stitching',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'Feature detection using Harris Corners, feature matching using RANSAC. (C++) (Contact me to gain access)',
+    img: panoImg,
+    link: 'https://github.com/karimitani00/automatic_image_stitching.git',
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'AR Gift App',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      'Send and receive AR gifts of different media types. (Java, Android Programming)',
+    img: appImg,
+    link: 'https://github.com/ray-hc/AR-Gift-App.git',
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+    name: 'Website Portfolio',
+    desc: 'My website portfolio. (Javascript, React, HTML/CSS)',
+    img: websiteImg,
+    link: 'https://github.com/karimitani00/karim-website-portfolio.git',
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
+    name: 'PuzzleFlex',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+      'Kinematic motion of chains with loose joints. Published in IEEE Robotics, 9/15/2020. (Julia)',
+    img: puzzleflexImg,
+    link: 'https://gitlab.com/dartmouthrobotics/PuzzleFlex.jl.git',
   },
 ];
 
