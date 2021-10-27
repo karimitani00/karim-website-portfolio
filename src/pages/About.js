@@ -83,22 +83,24 @@ export default function About() {
               <h2 className="about__heading">A Software Engineer</h2>
               <div className="about__info">
                 <PText>
-                  From Westwood, Massachussetts. A place of beauty and nature.
-                  Since my childhood, i love art and design. I always try to
-                  design stuff with my unique point of view. I also love to
-                  create things that can be usefull to others.
+                  From Westwood, Massachussetts. I was originaly born in
+                  Houston, Texas, but have been living in Massachussetts since I
+                  was a small child.
                   <br />
                   <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  I first began coding in High School, but began to take it more
+                  seriously as an undergraduate at Dartmouth College. During my
+                  time finishing my undergraduate degree, I found that
+                  Engineering was not what I thought it would be. It was neither
+                  as creative, nor as project-based as I expected. As a result,
+                  I decided to continue my education, and complete my Master's
+                  in Computer Science. I am currently looking for Software
+                  Engineering jobs in high tech and consumer electronics.
                   <br />
                   <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  During my free time I enjoy spending my time outdoors,
+                  specfically, climbing, skiing, and skateboarding. I am also an
+                  avid gamer and speak English and Arabic fluently.
                 </PText>
               </div>
             </div>

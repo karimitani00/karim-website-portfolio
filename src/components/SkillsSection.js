@@ -31,7 +31,7 @@ export default function SkillsSection() {
         <div className="skills__all__items">
           <SkillsSectionItem
             icon={<MdDesktopMac />}
-            title="Frontend/Backend Programming"
+            title="Fullstack Programming"
             body="I have experience with android, react, html and css programming. My
           knowledge in android programming was learned in a classroom, whereas
           my web development skills are all self-taught. "
