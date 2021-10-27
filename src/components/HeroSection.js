@@ -98,7 +98,7 @@ const HeroStyles = styled.div`
     }
     .hero__heading {
       font-size: 1.4rem;
-      margin-bottom: -3rem;
+      margin-bottom: 1rem;
       .hero__name {
         font-size: 4.5rem;
       }
