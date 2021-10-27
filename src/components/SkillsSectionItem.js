@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdDesktopMac, MdBuild, MdCode } from 'react-icons/md';
+import { MdDesktopMac } from 'react-icons/md';
 import styled from 'styled-components';
 import PText from './PText';
 
