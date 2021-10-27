@@ -49,7 +49,8 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Tiny Search Engine',
-    desc: 'Basic web crawler. Crawler, Querier, Indexer. (C)',
+    desc:
+      'Basic web crawler. Crawler, Querier, Indexer. (C) (Contact me to gain access)',
     img: tseImg,
     link: 'https://github.com/karimitani00/Tiny-Search-Engine.git',
   },
